@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(253, 2, 2);
+    font-family: 'Source Sans Pro';
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 4em;
+    height: 100%;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    justify-content: center;
+    color: rgb(253, 251, 251);
+    display: inline-block;
+    padding-right: 6px;
+    border-top: 1px solid rgb(250, 247, 247);
+    border-bottom: 1px solid rgb(252, 250, 250);
+}
+
+nav li {
+    display: inline-block;
+    margin: 0.25em;
+    font-size: 13px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0.25em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+}
+
+.nc-state {
+    background-color: rgb(250, 3, 3);
+    width: 700px;
+    margin: auto;
+}
+
+header h1 {
+    text-align: center;
+}
+
+main h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main h5 {
+    font-family: 'Abril Faface';
+
+}
+
+.more-articles section {
+    display: inline-block;
+    width: 60%;
+    margin: 0 1em;
+}
